@@ -9,3 +9,21 @@ Features:
 
 # Dependency
 NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
+
+# Help
+- Marker Types: [here!](https://docs.fivem.net/docs/game-references/markers)
+- Controls: [here!](https://docs.fivem.net/docs/game-references/controls/#controls)
+- Text Formatting: [here!](https://docs.fivem.net/docs/game-references/text-formatting/#input-codes)
+
+## Template
+Casino = {
+    {
+        text = ("Drücke ~INPUT_PICKUP~ um den Aufzug zu benutzen"),
+        label = ("Eingang"),
+        description = ("Fahre zum Eingang"),
+        marker = {type = 1, scale = 3.0, height = 0.5, r = 0, g = 255, b = 255, a = 200},
+        coords = {x = 924.43, y = 46.87, z = 80.11, h = 60.01},
+        
+    },
+    
+},
