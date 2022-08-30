@@ -7,7 +7,7 @@ Features:
 - Item whitelist
 - Configurable Text
 
-### Config
+## Config
 
 **MarkerDistance** Disctance where markers get rendered, default = 50 (GTA Units)
 **Key** Key to open elevator menu, default = 38 (E) 
