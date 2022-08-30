@@ -16,6 +16,7 @@ NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
 - Text Formatting: [here!](https://docs.fivem.net/docs/game-references/text-formatting/#input-codes)
 
 ## Template
+```
 Casino = {
     {
         text = ("Drücke ~INPUT_PICKUP~ um den Aufzug zu benutzen"),
@@ -27,3 +28,4 @@ Casino = {
     },
     
 },
+```
