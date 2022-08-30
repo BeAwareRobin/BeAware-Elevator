@@ -9,12 +9,14 @@ Features:
 
 ## Config
 
-**MarkerDistance** Disctance where markers get rendered, default = 50 (GTA Units) <br>
-**Key** Key to open elevator menu, default = 38 (E) <br>
-**Description** Header text (universial) <br>
-**TooFarAway** Error text if you are too far away <br>
-**NoPermission** Error text if you have insufficient permissions <br>
-**ScreenFade** Change if the Screen fades black
+| Option | Description | Default |
+|----------|----------|----------|
+| Config.MarkerDistance  | Disctance where markers get rendered, default = 50 (GTA Units)  | 50 |
+| Config.Key  | Zelle 4  | Key to open elevator menu | 38 |
+| Config.Description | Header text (universial) | "Elevator" |
+| Config.TooFarAway | Error text if you are too far away | "Too far away" |
+| Config.NoPermission | Error text if you have insufficient permissions | "insufficient permissions" |
+| Config.ScreenFade | Change if the Screen fades black | true |
 
 # Dependency
 NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
