@@ -7,6 +7,15 @@ Features:
 - Item whitelist
 - Configurable Text
 
+### Config
+
+**MarkerDistance** Disctance where markers get rendered, default = 50 (GTA Units)
+**Key** Key to open elevator menu, default = 38 (E) 
+**Description** Header text (universial)
+**TooFarAway** Error text if you are too far away
+**NoPermission** Error text if you have insufficient permissions
+**ScreenFade** Change if the Screen fades black
+
 # Dependency
 NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
 
