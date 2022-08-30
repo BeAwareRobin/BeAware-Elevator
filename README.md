@@ -7,7 +7,7 @@ Features:
 - Item whitelist
 - Configurable Text
 
-## Config
+### Config
 
 | Option | Description | Default |
 |----------|----------|----------|
@@ -18,15 +18,15 @@ Features:
 | Config.NoPermission | Error text if you have insufficient permissions | "insufficient permissions" |
 | Config.ScreenFade | Change if the Screen fades black | true |
 
-# Dependency
+## Dependency
 NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
 
-# Help
+## Help
 - Marker Types: [here!](https://docs.fivem.net/docs/game-references/markers)
 - Controls: [here!](https://docs.fivem.net/docs/game-references/controls/#controls)
 - Text Formatting: [here!](https://docs.fivem.net/docs/game-references/text-formatting/#input-codes)
 
-## Example
+### Example
 ```
 Casino = {
     {
