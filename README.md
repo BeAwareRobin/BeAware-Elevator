@@ -11,8 +11,8 @@ Features:
 
 | Option | Description | Default |
 |----------|----------|----------|
-| Config.MarkerDistance  | Disctance where markers get rendered, default = 50 (GTA Units)  | 50 |
-| Config.Key  | Zelle 4  | Key to open elevator menu | 38 |
+| Config.MarkerDistance | Disctance where markers get rendered, default = 50 (GTA Units) | 50 |
+| Config.Key | Key to open elevator menu | 38 |
 | Config.Description | Header text (universial) | "Elevator" |
 | Config.TooFarAway | Error text if you are too far away | "Too far away" |
 | Config.NoPermission | Error text if you have insufficient permissions | "insufficient permissions" |
