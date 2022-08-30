@@ -9,11 +9,11 @@ Features:
 
 ## Config
 
-**MarkerDistance** Disctance where markers get rendered, default = 50 (GTA Units)
-**Key** Key to open elevator menu, default = 38 (E) 
-**Description** Header text (universial)
-**TooFarAway** Error text if you are too far away
-**NoPermission** Error text if you have insufficient permissions
+**MarkerDistance** Disctance where markers get rendered, default = 50 (GTA Units) <br>
+**Key** Key to open elevator menu, default = 38 (E) <br>
+**Description** Header text (universial) <br>
+**TooFarAway** Error text if you are too far away <br>
+**NoPermission** Error text if you have insufficient permissions <br>
 **ScreenFade** Change if the Screen fades black
 
 # Dependency
@@ -24,7 +24,7 @@ NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
 - Controls: [here!](https://docs.fivem.net/docs/game-references/controls/#controls)
 - Text Formatting: [here!](https://docs.fivem.net/docs/game-references/text-formatting/#input-codes)
 
-## Template
+## Example
 ```
 Casino = {
     {
