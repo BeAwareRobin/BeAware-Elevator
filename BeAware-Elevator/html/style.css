@@ -1,0 +1,99 @@
+body {
+    font-family: sans-serif;
+    font-style: normal;
+}
+
+.items {
+    list-style-type: none;
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.item {
+    background-color: var(--btnbackgroundcolor);
+    color: var(--btntxtcolor);
+    padding: 15px;
+    padding-left: var(--btnpadding);
+    padding-right: var(--btnpadding);
+    border: none;
+    cursor: pointer;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: var(--itemfontsize);;
+    border-radius: 15px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.item:hover {
+    background-color: var(--btnbackgroundcolorhover);
+}
+
+#header {
+    font-size: var(--headerfontsite);
+    display: flex;
+    justify-content: center;
+    margin-top: var(--MTop);
+    margin-bottom: 0px;
+    color: var(--headertxtcolor);
+}
+
+#stage {
+    font-size: var(--stagefontsite);
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    color: var(--stagetxtcolor);
+}
+
+.list {
+    height: var(--itemheight);
+    scroll-behavior: smooth;
+
+    overflow-y: scroll;
+    overflow-x: hidden;
+    
+}
+
+.list::-webkit-scrollbar {
+    width: 5px;
+    
+}
+
+.list::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.418);
+    border-radius: 10px;
+    
+}
+
+.frame {
+    position: relative;
+    margin-left: 75vh;
+    margin-right: 75vh;
+}
+
+.main {
+    background: radial-gradient(transparent var(--VignetteTransperancy), var(--Vignette)), rgba(0,0,0,.7);
+    height: 100vh;
+    overflow: hidden;
+}
+
+.btnclose {
+    color: var(--btnclosecolor);
+    background-color: rgba(77, 77, 77, 0.137);
+
+    margin-left: 33%;
+
+    margin-top: 20px;
+
+    cursor: pointer;
+    font-family: sans-serif;
+    font-style: normal;
+    font-size: var(--itemfontsize);
+    border-radius: 25px;
+    border: none;
+}
