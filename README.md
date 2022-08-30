@@ -6,3 +6,6 @@ Features:
 - Job whitelist
 - Item whitelist
 - Configurable Text
+
+#Dependency
+NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
