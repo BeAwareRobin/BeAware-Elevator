@@ -7,5 +7,5 @@ Features:
 - Item whitelist
 - Configurable Text
 
-#Dependency
+# Dependency
 NativeUILua: Get it [here!](https://github.com/FrazzIe/NativeUILua)
