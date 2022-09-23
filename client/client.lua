@@ -24,7 +24,7 @@ local ElevatorMenu
 
 CreateThread(function()
     while true do 
-        Wait(0)
+        Citizen.Wait(0)
         _menuPool:ProcessMenus()
 		for elevatorName, elevatorFloors in pairs(Config.Elevator) do
             for index, floor in pairs(elevatorFloors) do
@@ -100,23 +100,23 @@ function Teleport(x, y, z, h)
         if Config.ScreenFade then
             DoScreenFadeOut(800)
             while not IsScreenFadedOut() do
-                Wait(10)
+                Citizen.Wait(10)
             end
         end
         SetEntityCoords(GetVehiclePedIsUsing(player), x, y, z)
         SetEntityHeading(GetVehiclePedIsUsing(player), h)
-        Wait(500)
+        Citizen.Wait(500)
         if Config.ScreenFade then
             DoScreenFadeIn(800)
             while not IsScreenFadedIn() do
-                Wait(10)
+                Citizen.Wait(10)
             end
         end
     else
         if Config.ScreenFade then
             DoScreenFadeOut(800)
             while not IsScreenFadedOut() do
-                Wait(10)
+                Citizen.Wait(10)
             end
         end
         SetEntityCoordsNoOffset(player, x + 0.0, y + 0.0, z + 1.0, 0, 0, 1)
@@ -125,7 +125,7 @@ function Teleport(x, y, z, h)
             if Config.ScreenFade then
                 DoScreenFadeIn(800)
                 while not IsScreenFadedIn() do
-                    Wait(10)
+                    Citizen.Wait(10)
                 end
             end
     end
